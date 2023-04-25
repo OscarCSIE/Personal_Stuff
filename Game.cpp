@@ -76,7 +76,6 @@ public:
 };
 
 // The Game class represents the overall game state
-// The Game class represents the overall game state
 class Game{
 private:
     Ball ball; // the shuttlecock
