@@ -1,4 +1,4 @@
-﻿#include<iostream>
+#include<iostream>
 #include<cstdlib>
 #include<ctime>
 #include<chrono>
@@ -164,12 +164,3 @@ int main(int argc, char* argv[]){
     SDL_Quit();
     return 0;
 }
-//Download the SDL development libraries from the official SDL website : https://www.libsdl.org/download-2.0.php. 
-//Make sure to choose the correct version for your platform and Visual Studio version.
-//Extract the contents of the downloaded archive to a folder on your computer(e.g.C:\SDL2).
-//In Visual Studio, create a new C++ project.
-//Right - click on the project in the Solution Explorer, and select "Properties".
-//In the properties window, go to "VC++ Directories" and add the SDL include directory(e.g.C:\SDL2\include) 
-// to "Include Directories", and the SDL lib directory(e.g.C:\SDL2\lib) to "Library Directories".
-//Still in the properties window, go to "Linker > Input" and add the following libraries 
-//to "Additional Dependencies" : SDL2.lib, SDL2main.lib.
